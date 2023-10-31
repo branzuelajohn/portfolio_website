@@ -1,6 +1,4 @@
 /** @type {import('next').NextConfig} */
-const withTM = require("next-transpile-modules")(["framer-motion"]);
+const nextConfig = {}
 
-module.exports = withTM({
-  // your other config settings
-});
+module.exports = nextConfig
